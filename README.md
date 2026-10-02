@@ -142,10 +142,37 @@ Il représente particulièrement mon intérêt pour la **conception mécanique, 
 
 ## 📸 Aperçu du projet
 
-Des photographies, schémas et résultats expérimentaux du prototype seront ajoutés dans les différentes sections du dépôt.
+### 🔥 Prototype réalisé
+
+Voici le prototype fonctionnel réalisé lors du projet.
+
+![Prototype du chalumeau à hydrogène](prototype-chalumeau-hydrogene.jfif)
 
 ---
 
+### ⚙️ Conception CAO du générateur
+
+Modélisation et conception du générateur et de ses différents composants.
+
+![Conception CAO du générateur](conception-cao-generateur-hydrogene.jfif)
+
+---
+
+### ☀️ Alimentation énergétique solaire
+
+Architecture d'alimentation du système comprenant le panneau solaire,
+le régulateur de charge et la batterie.
+
+![Schéma de l'alimentation solaire](schema-alimentation-solaire.jfif)
+
+---
+
+### 🧩 Conception CAO du système complet
+
+Modélisation du concept d'intégration du système dans une architecture
+compacte et transportable.
+
+![Conception CAO du système complet](conception-cao-systeme-complet.jfif)
 ## 👤 Auteur
 
 **Amour Tamègnon AZONNAKPO**
