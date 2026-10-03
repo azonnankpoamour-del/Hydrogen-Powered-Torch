@@ -1,191 +1,330 @@
-# 🔥 Conception et réalisation d’un chalumeau à hydrogène
+# 🔥 Conception et réalisation d’un chalumeau à hydrogène alimenté par énergie solaire
 
-## 📌 Présentation
+![Prototype du chalumeau](prototype-chalumeau-hydrogene.jfif)
 
-Ce projet porte sur la **conception et la réalisation d’un chalumeau utilisant l’hydrogène produit par électrolyse de l’eau**.
+## 📌 Présentation du projet
 
-Le système a été développé dans le cadre de ma **Licence professionnelle en Génie Mécanique** avec pour objectif d'étudier une solution alternative pour des opérations thermiques telles que le **chauffage, le brasage, le soudage et la découpe de tôles fines**.
+Ce projet porte sur la **conception, le dimensionnement, la réalisation et l’expérimentation d’un chalumeau oxyhydrogène** utilisant un mélange gazeux HHO produit par **électrolyse de l’eau**.
 
-Une attention particulière a été portée à l’**autonomie énergétique**, à l’intégration des différents sous-systèmes et à la réalisation d’un **prototype fonctionnel**.
+Le système a été développé comme une alternative aux chalumeaux conventionnels utilisant des combustibles fossiles tels que l’acétylène.
 
----
+L’objectif était de réaliser un prototype capable de produire son combustible à la demande et pouvant être utilisé pour des opérations de **chauffage, brasage, soudage et découpe de tôles fines**, tout en étant alimenté par une **source d’énergie solaire**.
 
-## 🎯 Objectifs du projet
-
-- Concevoir un système de production d’hydrogène par électrolyse
-- Intégrer une alimentation basée sur l’énergie solaire
-- Concevoir et assembler un prototype fonctionnel
-- Étudier les paramètres influençant la production de gaz
-- Réaliser des essais expérimentaux
-- Évaluer les possibilités d’utilisation pour des opérations thermiques
-- Intégrer les contraintes de sécurité liées au système
+Ce projet a été réalisé dans le cadre de mon projet de fin de formation en **Licence professionnelle – Équipements Motorisés** à l’ENSGEP / UNSTIM.
 
 ---
 
-## ⚙️ Principe général
+## 🎯 Objectifs
 
-Le système repose sur la transformation de l’énergie électrique en énergie chimique par **électrolyse de l’eau**.
-
-La réaction globale peut être représentée par :
-
-**2 H₂O → 2 H₂ + O₂**
-
-L’énergie électrique nécessaire au système est fournie par une architecture comprenant une **source solaire et une batterie**.
-
-Le mélange gazeux généré est ensuite acheminé vers le dispositif d’utilisation à travers un circuit intégrant des éléments de sécurité.
-
-La combustion permet d’obtenir une **flamme concentrée à haute température** pouvant être utilisée pour différentes applications thermiques.
-
----
-
-## ☀️ Architecture du prototype
-
-Le prototype comprend principalement :
-
-- Panneau solaire
-- Régulateur de charge
-- Batterie
-- Générateur électrolytique
-- Réservoir
-- Circuit de circulation du gaz
-- Dispositif anti-retour de flamme
-- Tuyauterie et raccords
-- Vannes de contrôle
-- Chalumeau / brûleur
-
-Cette architecture permet de regrouper **production énergétique, génération du gaz, sécurité et utilisation thermique** au sein d’un même système.
+- Concevoir un système de chalumeau fonctionnant avec de l’hydrogène produit par électrolyse.
+- Dimensionner le débit de gaz nécessaire au fonctionnement du chalumeau.
+- Concevoir et intégrer un **générateur HHO de type Drycell**.
+- Dimensionner l’alimentation électrique du système.
+- Intégrer une alimentation photovoltaïque permettant d’améliorer l’autonomie énergétique du prototype.
+- Concevoir mécaniquement l’ensemble du dispositif sous **SolidWorks**.
+- Comparer différentes solutions électrolytiques.
+- Réaliser et assembler le prototype.
+- Effectuer des essais expérimentaux de production de gaz et de fonctionnement du chalumeau.
+- Intégrer les dispositifs nécessaires à la sécurité du système.
 
 ---
 
-## 🔬 Étude et conception
+## ⚙️ Principe de fonctionnement
 
-Le développement du prototype a nécessité plusieurs étapes :
+Le fonctionnement du dispositif repose sur l’**électrolyse de l’eau**.
 
-### 1. Analyse du besoin
-Identification des fonctions principales et des contraintes du système.
+Sous l’action d’un courant électrique et en présence d’un électrolyte, l’eau est dissociée afin de produire du dihydrogène et du dioxygène :
 
-### 2. Dimensionnement
-Étude des besoins énergétiques et des paramètres nécessaires à la production du gaz.
+**2 H₂O (l) → 2 H₂ (g) + O₂ (g)**
 
-### 3. Conception
-Définition de l’architecture générale et intégration des différents composants.
+Le mélange gazeux produit par le générateur HHO est ensuite acheminé vers le chalumeau.
 
-### 4. Fabrication et assemblage
-Réalisation du prototype et intégration des sous-systèmes mécaniques, électriques et énergétiques.
+Le système comporte notamment un réservoir de solution électrolytique, une pompe de circulation, un générateur HHO-Drycell, un séparateur eau-gaz, les éléments de sécurité et le bec du chalumeau.
 
-### 5. Essais
-Observation du fonctionnement du système et réalisation d’essais sur différents matériaux.
-
-### 6. Analyse et amélioration
-Identification des performances, limites et pistes d’amélioration du prototype.
+L’énergie nécessaire au fonctionnement du système est fournie par une batterie alimentée par un panneau photovoltaïque.
 
 ---
 
-## 🔥 Résultats obtenus
+## 🧩 Architecture du système
 
-Le prototype réalisé a permis :
+Les principaux composants utilisés sont :
 
-- La production d’un mélange gazeux par électrolyse
-- L’obtention d’une flamme concentrée
-- La réalisation d’essais de chauffage et de travail thermique
-- Des essais sur des tôles fines allant jusqu’à environ **0,8 mm**
-- La validation du principe général du prototype
+| Composant | Fonction |
+|---|---|
+| Générateur HHO – Drycell | Production du mélange gazeux HHO par électrolyse |
+| Réservoir | Stockage de la solution électrolytique |
+| Pompe de circulation | Circulation de la solution dans le système |
+| Séparateur eau-gaz | Séparation du gaz produit et de la solution |
+| Cartouche filtrante | Filtration de l’eau |
+| Batterie LiFePO₄ 24 V – 10 Ah | Stockage de l’énergie électrique |
+| Panneau photovoltaïque 355–375 W | Production d’énergie électrique |
+| Régulateur solaire 40 A | Gestion de la charge de la batterie |
+| Bec de chalumeau | Contrôle et orientation de la flamme |
+| Tuyauterie et raccords | Circulation du gaz et de la solution |
+| Dispositif anti-retour de flamme | Protection du circuit HHO |
 
-Les performances expérimentales doivent être interprétées en fonction des conditions d’essai et des caractéristiques du prototype.
+---
+
+## ☀️ Alimentation solaire
+
+![Schéma alimentation solaire](schema-alimentation-solaire.jfif)
+
+Le prototype a été conçu pour fonctionner avec une alimentation photovoltaïque.
+
+### Caractéristiques principales
+
+- **Panneau photovoltaïque : 355–375 W**
+- **Batterie : LiFePO₄ 24 V – 10 Ah**
+- **Énergie stockée : 240 Wh**
+- **Régulateur de charge : 40 A**
+- **Consommation théorique du Drycell : ≈ 120 W**
+- **Autonomie théorique sur batterie : ≈ 2 h**
+
+Cette architecture permet de réduire la dépendance à une alimentation électrique conventionnelle et apporte une autonomie énergétique au dispositif.
+
+---
+
+## 📐 Dimensionnement du débit d’hydrogène
+
+Le dimensionnement a été réalisé pour permettre le travail sur une **tôle d’environ 0,8 mm d’épaisseur**.
+
+En prenant comme référence un chalumeau oxyacétylénique :
+
+- débit d’acétylène retenu : **250 mL/min**
+- débit équivalent théorique d’hydrogène : **≈ 625 mL/min**
+- plage de fonctionnement estimée : **600 à 750 mL/min de H₂**
+
+Le dimensionnement théorique a donc retenu un débit cible d’environ :
+
+**Q(H₂) = 625 mL/min**
+
+---
+
+## ⚡ Dimensionnement électrique
+
+La production d’hydrogène a été dimensionnée à partir de la loi de Faraday.
+
+Pour un débit cible de **625 mL/min**, le dimensionnement théorique conduit à un courant d’environ :
+
+**I ≈ 60 A**
+
+Avec une tension de cellule de l’ordre de **2 V**, la puissance théorique absorbée par le générateur est d’environ :
+
+**P ≈ 120 W**
+
+---
+
+## 🧪 Étude expérimentale des électrolytes
+
+Plusieurs solutions électrolytiques ont été étudiées expérimentalement afin d’analyser leur influence sur la production de gaz.
+
+### Solutions testées
+
+- Eau + bicarbonate de sodium (**NaHCO₃**)
+- Eau de mer
+- Eau + hydroxyde de potassium (**KOH**)
+
+Le débit de gaz a été évalué expérimentalement par la **méthode du déplacement d’eau**.
+
+### Résultats
+
+| Solution | Débit expérimental |
+|---|---:|
+| NaHCO₃ | ≈ 1,0 L/min |
+| Eau de mer | ≈ 0,7 L/min |
+| KOH | ≈ 1,4 à 1,6 L/min |
+
+Les essais ont montré que le **KOH présentait les meilleures performances** parmi les solutions étudiées.
+
+L'étude de l'influence de la concentration a également montré un optimum expérimental autour de **6 %**, avec un débit pouvant atteindre environ **1,6 L/min avec le KOH**.
+
+---
+
+## 🖥️ Conception mécanique – CAO
+
+### Générateur HHO
+
+![CAO générateur HHO](conception-cao-generateur-hydrogene.jfif)
+
+Le générateur HHO de type **Drycell** constitue l’un des éléments centraux du dispositif.
+
+La conception mécanique a permis de définir l’organisation et l’intégration des différents composants nécessaires à la production et à la circulation du gaz.
+
+### Assemblage du système
+
+![CAO système complet](conception-cao-systeme-complet.jfif)
+
+L’ensemble du système a été modélisé sous **SolidWorks** afin d’étudier l’intégration des différents composants avant la réalisation du prototype.
+
+Cette étape a notamment permis de travailler sur :
+
+- la conception des pièces ;
+- l’assemblage mécanique ;
+- le positionnement des composants ;
+- l’encombrement du système ;
+- l’intégration du Drycell ;
+- le passage des tuyauteries et connexions.
+
+---
+
+## 🔧 Réalisation du prototype
+
+![Prototype du chalumeau](prototype-chalumeau-hydrogene.jfif)
+
+Après la phase de conception et de dimensionnement, les différents composants ont été assemblés afin d'obtenir un prototype fonctionnel.
+
+Le système comprend la chaîne :
+
+**Énergie solaire → Batterie → Générateur HHO → Production HHO → Séparation / sécurité → Chalumeau → Flamme**
+
+Le gaz est ainsi produit au fur et à mesure des besoins du système.
+
+---
+
+## 🔥 Essais et résultats
+
+Les essais réalisés ont permis de valider le principe de fonctionnement du prototype.
+
+### Principaux résultats
+
+- Production effective de gaz HHO par électrolyse.
+- Obtention d’une flamme stable au niveau du chalumeau.
+- Débit expérimental supérieur au besoin théorique de **600–750 mL/min** avec certaines solutions électrolytiques.
+- Meilleure performance obtenue avec le **KOH**.
+- Débit maximal expérimental de l’ordre de **1,4 à 1,6 L/min** avec le KOH.
+- Utilisation prévue pour le chauffage, le brasage, le soudage et le travail sur des tôles fines jusqu’à environ **0,8 mm**.
+- Fonctionnement avec une alimentation photovoltaïque.
+
+La littérature et le dimensionnement du projet situent la température d’une flamme oxyhydrogène à des valeurs pouvant approcher **2800 à 3300 °C** selon les conditions de fonctionnement.
+
+> **Remarque :** la température exacte de la flamme du prototype n’a pas été mesurée expérimentalement, faute d’instrumentation adaptée. Elle ne doit donc pas être interprétée comme une température directement mesurée sur le prototype.
 
 ---
 
 ## 🛡️ Sécurité
 
-La sécurité constitue une partie essentielle du projet en raison de la présence d’hydrogène et d’oxygène.
+La manipulation de l’hydrogène nécessite une attention particulière.
 
-Le prototype intègre notamment :
+Plusieurs dispositions ont été prises en compte dans le projet :
 
-- un dispositif anti-retour de flamme ;
-- le contrôle de l’étanchéité du circuit ;
-- la vérification du système avant les essais ;
-- l’utilisation d’équipements de protection adaptés.
+- production du gaz en fonction des besoins ;
+- limitation du stockage de gaz ;
+- utilisation d’un dispositif anti-retour de flamme ;
+- contrôle de l’étanchéité des raccords et tuyauteries ;
+- vérification régulière de la cellule électrolytique ;
+- éloignement des sources d’étincelles pendant les opérations de maintenance ;
+- utilisation obligatoire des équipements de protection individuelle.
 
-> ⚠️ Ce dépôt présente un projet académique et sa démarche d’ingénierie.
-> Il ne constitue pas un guide de fabrication ou d’utilisation d’un
-> système de production ou de combustion d’hydrogène.
-
----
-
-## 🧠 Compétences développées
-
-Ce projet m’a permis de mettre en pratique plusieurs compétences en ingénierie :
-
-- ⚙️ Conception mécanique
-- 📐 Dimensionnement
-- 🧩 Analyse fonctionnelle
-- 🔧 Fabrication et assemblage
-- 🧪 Prototypage
-- ☀️ Intégration d’un système énergétique solaire
-- ⚡ Intégration électromécanique
-- 🔬 Essais expérimentaux
-- 📊 Analyse des performances
-- 🛡️ Prise en compte des contraintes de sécurité
-- 📋 Gestion de projet
+**EPI recommandés :**
+- lunettes de protection ;
+- gants de protection ;
+- vêtements et équipements adaptés aux opérations de soudage.
 
 ---
 
-## 🚀 Démarche d’ingénierie
+## 💰 Étude économique
 
-**Besoin → Analyse → Conception → Dimensionnement → Fabrication → Assemblage → Essais → Analyse → Amélioration**
+Le coût total estimé pour la fabrication du prototype est de :
 
-Ce projet m’a permis de dépasser la conception théorique pour travailler sur un **système physique complet**, depuis l’identification du besoin jusqu’à la réalisation et aux essais d’un prototype fonctionnel.
+### **637 000 XOF**
 
-Il représente particulièrement mon intérêt pour la **conception mécanique, le prototypage, l’innovation et le développement de systèmes techniques multidisciplinaires**.
+Ce montant comprend notamment :
 
----
+- le générateur HHO ;
+- les accessoires de circulation d’eau et de gaz ;
+- le câblage ;
+- le panneau photovoltaïque ;
+- le régulateur solaire ;
+- la batterie LiFePO₄ ;
+- le bec du chalumeau ;
+- le transport et les accessoires nécessaires au montage.
 
-## 📸 Aperçu du projet
-
-### 🔥 Prototype réalisé
-
-Voici le prototype fonctionnel réalisé lors du projet.
-
-![Prototype du chalumeau à hydrogène](prototype-chalumeau-hydrogene.jfif)
-
----
-
-### ⚙️ Conception CAO du générateur
-
-Modélisation et conception du générateur et de ses différents composants.
-
-![Conception CAO du générateur](conception-cao-generateur-hydrogene.jfif)
+L’utilisation de l’énergie solaire permet par ailleurs de réduire le coût électrique associé au fonctionnement du système.
 
 ---
 
-### ☀️ Alimentation énergétique solaire
+## 🚀 Perspectives d’amélioration
 
-Architecture d'alimentation du système comprenant le panneau solaire,
-le régulateur de charge et la batterie.
+Plusieurs améliorations ont été identifiées :
 
-![Schéma de l'alimentation solaire](schema-alimentation-solaire.jfif)
+- optimisation du rendement du générateur HHO ;
+- optimisation de la concentration de l’électrolyte ;
+- amélioration de la conception des électrodes ;
+- instrumentation du système pour mesurer précisément température, pression et débit ;
+- intégration de capteurs de température et de gaz ;
+- automatisation de la régulation avec un microcontrôleur ou un automate ;
+- mise en place d’une protection contre la surchauffe et les surtensions ;
+- poursuite des recherches sur l’utilisation de l’eau de mer dans un contexte maritime ;
+- amélioration de la compacité et de la portabilité du dispositif.
 
 ---
 
-### 🧩 Conception CAO du système complet
+## 🧠 Compétences mobilisées
 
-Modélisation du concept d'intégration du système dans une architecture
-compacte et transportable.
+Ce projet m’a permis de mettre en œuvre des compétences multidisciplinaires en :
 
-![Conception CAO du système complet](conception-cao-systeme-complet.jfif)
+**Conception mécanique**
+- CAO sous SolidWorks
+- conception de pièces et assemblages
+- intégration mécanique
+- prototypage
+
+**Dimensionnement**
+- calcul énergétique
+- dimensionnement électrique
+- dimensionnement d’un générateur HHO
+- dimensionnement d’une alimentation photovoltaïque
+
+**Expérimentation**
+- électrolyse de l’eau
+- étude comparative d’électrolytes
+- mesure de débit par déplacement d’eau
+- analyse et interprétation de résultats expérimentaux
+
+**Énergie**
+- hydrogène
+- énergie solaire photovoltaïque
+- batterie LiFePO₄
+- gestion énergétique
+
+**Gestion de projet**
+- étude du besoin
+- conception
+- dimensionnement
+- réalisation
+- essais
+- analyse économique
+- amélioration continue
+
+---
+
+## 📄 Documentation
+
+La documentation détaillée du projet comprend :
+
+- **Rapport de fin de formation – Réalisation d’un chalumeau utilisant l’hydrogène comme combustible**
+- **Manuel d’utilisation du chalumeau à hydrogène vert**
+
+Ces documents présentent le dimensionnement, la conception, les résultats expérimentaux, les procédures d’utilisation ainsi que les recommandations de sécurité.
+
+---
+
 ## 👤 Auteur
 
-**Amour Tamègnon AZONNAKPO**
+**Amour Tamègnon AZONNANKPO**
 
-Licence 3 Sciences pour l’Ingénieur – Génie Mécanique  
-Université Marie et Louis Pasteur – Besançon, France
+Projet de fin de formation – Licence professionnelle  
+**Équipements Motorisés**
 
-### Domaines d’intérêt
+École Nationale Supérieure de Génie Énergétique et Procédés (**ENSGEP**)  
+Université Nationale des Sciences, Technologies, Ingénierie et Mathématiques (**UNSTIM**)
 
-**Conception mécanique • CAO • Industrialisation • Prototypage • Fabrication additive • Mécatronique**
+Année académique : **2024–2025**
 
 ---
 
-## 🔗 Portfolio
+## ⚠️ Avertissement
 
-D’autres projets de conception mécanique et de prototypage sont disponibles sur mon profil GitHub.
+Ce dépôt présente un projet académique et expérimental.
+
+L’hydrogène et les mélanges hydrogène/oxygène présentent des risques importants d’incendie et d’explosion. Les informations contenues dans ce dépôt sont fournies à des fins de présentation technique et pédagogique et ne constituent pas des instructions permettant de reproduire le dispositif sans équipements, procédures de sécurité et encadrement appropriés.
