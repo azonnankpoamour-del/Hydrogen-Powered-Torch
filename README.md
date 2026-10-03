@@ -300,10 +300,14 @@ Ce projet m’a permis de mettre en œuvre des compétences multidisciplinaires 
 
 ## 📄 Documentation
 
-La documentation détaillée du projet comprend :
+Pour aller plus loin, la documentation complète du projet est disponible directement dans ce dépôt :
 
-- **Rapport de fin de formation – Réalisation d’un chalumeau utilisant l’hydrogène comme combustible**
-- **Manuel d’utilisation du chalumeau à hydrogène vert**
+- 📘 [Consulter le rapport complet du projet](Rapport-Projet-Chalumeau-Hydrogene.pdf)
+- 📗 [Consulter le manuel d'utilisation](Manuel-Utilisation-Chalumeau-Hydrogene.pdf)
+
+Le rapport présente notamment le **dimensionnement**, la **conception mécanique**, les **essais expérimentaux**, l'**étude énergétique** et l'**étude économique** du prototype.
+
+Le manuel présente le **principe de fonctionnement**, les différents composants, la **mise en service**, les consignes de **sécurité**, l'entretien et le dépannage.
 
 Ces documents présentent le dimensionnement, la conception, les résultats expérimentaux, les procédures d’utilisation ainsi que les recommandations de sécurité.
 
