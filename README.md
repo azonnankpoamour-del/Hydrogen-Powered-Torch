@@ -314,7 +314,7 @@ Ces documents présentent le dimensionnement, la conception, les résultats exp�
 **Amour Tamègnon AZONNANKPO**
 
 Projet de fin de formation – Licence professionnelle  
-**Équipements Motorisés**
+**Génie Mécanique-Équipements Motorisés**
 
 École Nationale Supérieure de Génie Énergétique et Procédés (**ENSGEP**)  
 Université Nationale des Sciences, Technologies, Ingénierie et Mathématiques (**UNSTIM**)
