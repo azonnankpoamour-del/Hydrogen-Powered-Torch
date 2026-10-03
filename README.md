@@ -311,6 +311,15 @@ Le manuel présente le **principe de fonctionnement**, les différents composant
 
 Ces documents présentent le dimensionnement, la conception, les résultats expérimentaux, les procédures d’utilisation ainsi que les recommandations de sécurité.
 
+## 🧩 Fichiers CAO
+
+Le modèle 3D du générateur HHO de type **Drycell** est disponible dans deux formats :
+
+- ⚙️ [Fichier source SolidWorks (.SLDPRT)](Generateur-HHO-Drycell.SLDPRT)
+- 🧊 [Modèle 3D STL (.STL)](Generateur-HHO-Drycell.STL)
+
+La modélisation CAO a été réalisée sous **SolidWorks** dans le cadre de la conception du système de production HHO.
+
 ---
 
 ## 👤 Auteur
